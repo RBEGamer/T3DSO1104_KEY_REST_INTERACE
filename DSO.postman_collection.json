@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "fcb4b5ad-73ac-4162-a967-d0020a4a2501",
+		"name": "DSO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "trigger_run_stop",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "excutescpicmds",
+							"type": "text"
+						},
+						{
+							"key": "cmd",
+							"value": "{\"cmd\":\"$$SY_FP 12,1\",\"type\":\"ds\",\"to\":\"127.0.0.1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.61/device_read_write.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"61"
+					],
+					"path": [
+						"device_read_write.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trigger_default",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "excutescpicmds",
+							"type": "text"
+						},
+						{
+							"key": "cmd",
+							"value": "{\"cmd\":\"$$SY_FP 13\",\"type\":\"ds\",\"to\":\"127.0.0.1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.61/device_read_write.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"61"
+					],
+					"path": [
+						"device_read_write.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trigger_autosetup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "excutescpicmds",
+							"type": "text"
+						},
+						{
+							"key": "cmd",
+							"value": "{\"cmd\":\"$$SY_FP 11,1\",\"type\":\"ds\",\"to\":\"127.0.0.1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.61/device_read_write.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"61"
+					],
+					"path": [
+						"device_read_write.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trigger_ch_1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "excutescpicmds",
+							"type": "text"
+						},
+						{
+							"key": "cmd",
+							"value": "{\"cmd\":\"$$SY_FP 39,1\",\"type\":\"ds\",\"to\":\"127.0.0.1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.61/device_read_write.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"61"
+					],
+					"path": [
+						"device_read_write.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trigger_ch_3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "excutescpicmds",
+							"type": "text"
+						},
+						{
+							"key": "cmd",
+							"value": "{\"cmd\":\"$$SY_FP 41,1\",\"type\":\"ds\",\"to\":\"127.0.0.1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.61/device_read_write.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"61"
+					],
+					"path": [
+						"device_read_write.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
