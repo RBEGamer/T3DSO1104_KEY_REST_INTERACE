@@ -1,0 +1,20 @@
+{
+  "name": "t3dso1104_api",
+  "version": "1.0.0",
+  "description": "a simple nodejs api for the dso1104",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DSO",
+    "API",
+    "DSO1104",
+    "LECROY"
+  ],
+  "author": "Marcel Ochsendorf",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
