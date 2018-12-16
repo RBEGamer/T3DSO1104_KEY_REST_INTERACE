@@ -33,6 +33,10 @@ To invoke a button press simply call `vpbc("<BUTTON_ID>", function (_ret) { cons
 Replace the BUTTON_ID with the button you want to call.
 To get this id you can use the scope webinterface or look at the `vpbc` function on line `13`.
 
+# POSTMAN
+To get the http calls i used wireshark. With POSTMAN i checked if calls are working.
+I exported (`./DSO.postman_collection.json`) the POSTMAN collection so you can test raound. 
+
 
 # VIDEO
 This example takes a csv snapshot from channel 3 after 3seconds and save it to the usb drive.
